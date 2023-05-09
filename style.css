@@ -86,7 +86,9 @@ main {
 }
 #search-input {
   width: 50vw;
+  height: 20px;
   border: none;
+  outline: none;
 }
 .search-button {
   text-align: center;
