@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  min-height: calc(100vh - 72px);
+}
+#top-left {
+  display: flex;
+  float: left;
+  width: 50%;
+  height: 1.6rem;
+  align-items: center;
+}
+#top-left a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: gray;
+  /* font-size: larger; */
+  font-size: smaller;
+}
+#top-right {
+  display: flex;
+  justify-content: right;
+  height: 1.6rem;
+  align-items: center;
+}
+#top-right a,
+#top-right img {
+  margin-left: 20px;
+  text-decoration: none;
+  color: grey;
+  /* font-size: larger; */
+  font-size: smaller;
+}
+
+#menu-icon {
+  width: 4%;
+  opacity: 0.5;
+}
+.top {
+  width: 100%;
+  padding: 30px 30px;
+}
+
+#sign-in-button {
+  background-color: #4285f4;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: justify;
+}
+.main-logo {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+#search-icon {
+  width: 2rem;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#mic-icon {
+  width: 0.9rem;
+  /* height: 1.6rem; */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#search-box {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.124);
+  border-radius: 30px;
+  width: 25vw;
+  margin: auto;
+  align-items: center;
+  padding: 0.17rem;
+}
+#search-input {
+  width: 50vw;
+  border: none;
+}
+.search-button {
+  text-align: center;
+  margin-top: 30px;
+}
+.search-button #search,
+.search-button #lucky {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.562);
+  background-color: rgba(128, 128, 128, 0.095);
+  border-radius: 5px;
+  margin-left: 20px;
+  font-size: smaller;
+}
+.languages {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 70px;
+  font-size: smaller;
+}
+footer {
+  background-color: rgba(128, 128, 128, 0.095);
+  padding-bottom: 0px;
+}
+.turkey {
+  padding: 10px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+}
+.turkey p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.706);
+}
+.bottom-left {
+  display: flex;
+  float: left;
+  width: 50%;
+}
+.bottom-right {
+  display: flex;
+  justify-content: right;
+}
+.bottom-left a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.706);
+  font-size: 14px;
+}
+.bottom-right a {
+  margin-right: 25px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.706);
+  font-size: 14px;
+}
+.for-line {
+  border-top: 1px solid rgba(0, 0, 0, 0.141);
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
